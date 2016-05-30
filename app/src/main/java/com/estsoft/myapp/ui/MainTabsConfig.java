@@ -6,11 +6,12 @@ import com.estsoft.myapp.R;
 import com.estsoft.myapp.ui.tabs.Tab1Fragment;
 import com.estsoft.myapp.ui.tabs.Tab2Fragment;
 import com.estsoft.myapp.ui.tabs.Tab3Fragment;
+import com.estsoft.myapp.ui.user.UserListFragment;
 
 public final class MainTabsConfig {
 
     private static final TabInfo[] TABINFOS = {
-       new TabInfo( "접속자", R.drawable.ic_online, R.drawable.ic_online_selected, Tab1Fragment.class, null ),
+       new TabInfo( "접속자", R.drawable.ic_online, R.drawable.ic_online_selected, UserListFragment.class, null ),
        new TabInfo( "대화", R.drawable.ic_chat, R.drawable.ic_chat_selected, Tab2Fragment.class, null ),
        new TabInfo( "더보기", R.drawable.ic_more, R.drawable.ic_more_selected, Tab3Fragment.class, null )
     };
